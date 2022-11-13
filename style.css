@@ -1,3 +1,10 @@
+ul{list-style: none;}
+.webpage-navigator{
+  display: flex;
+  background-color: orange;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
 .navigator-buttons{
     background-color:white;
     margin: 20px;

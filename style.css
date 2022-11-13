@@ -1,14 +1,33 @@
-ul{list-style: none;}
-.webpage-navigator{
-  display: flex;
-  background-color: orange;
-  flex-direction: row-reverse;
-  justify-content: center;
+
+header ::after {
+  content:'';
+  display: table;
+  clear:both;
+
 }
-.navigator-buttons{
-    background-color:white;
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px; 
-  }
+header{
+  background-color: black;
+
+}
+
+.nav-bar{
+  margin-right:100px;
+
+
+
+}
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  margin-left: 100px
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
   
+
+}

@@ -24,7 +24,9 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 50px;
-  font-size: 25px
+  font-size: 25px;
+  position: relative;
+
   
 
 }
@@ -37,4 +39,23 @@ nav a{
 
 nav a:hover {
   color: grey;
+}
+
+nav a::before{
+  content : '';
+  display: block;
+  height: 2px;
+  background-color: white;
+
+  position:absolute;
+  bottom: 50px;
+  width: 0%;
+
+
+
+}
+
+nav a:hover::before{
+  width: 100%;
+
 }

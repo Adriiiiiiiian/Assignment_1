@@ -3,11 +3,11 @@ header ::after {
   content:'';
   display: table;
   clear:both;
+ 
 
 }
 header{
   background-color: black;
-
 }
 
 
@@ -37,6 +37,8 @@ nav a{
 
 }
 
+
+
 nav a:hover {
   color: grey;
 }
@@ -58,4 +60,10 @@ nav a::before{
 nav a:hover::before{
   width: 100%;
 
+}
+
+
+ .homepage-about{
+  font-size: 40px;
+  text-decoration-line: underline;
 }

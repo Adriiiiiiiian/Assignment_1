@@ -1,6 +1,6 @@
 html{background-color: rgb(30, 30, 30);}
 
-
+/*NAVIGATION BAR*/
 header ::after {
   content:'';
   display: table;
@@ -67,7 +67,7 @@ nav a:hover::before{
 .nav-bar{
   margin-left: 0px;
 }
-
+/*CSS FOR HOME PAGE*/
 .homepage-content{
   background-color: black;
   position: relative;
@@ -151,4 +151,28 @@ nav a:hover::before{
   background-image: linear-gradient(to right, 
   rgba(0,0,0,0))
 }
+}
+
+
+/*CSS FOR MERCH PAGE*/
+
+.accessories-merch{
+  color: white
+}
+
+.back-btn{
+  height: 50px;
+  width: 20px;
+
+}
+
+.front-btn{
+  height: 50px;
+  width: 20px;
+
+}
+
+.accessory-image{
+  background-color: white;
+  height:1%;
 }

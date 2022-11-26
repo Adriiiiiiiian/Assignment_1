@@ -154,25 +154,24 @@ nav a:hover::before{
 }
 
 
-/*CSS FOR MERCH PAGE*/
-
 .accessories-merch{
-  color: white
+  color: white;
 }
 
-.back-btn{
-  height: 50px;
-  width: 20px;
+.back-btn img{
+  height:30px;
+  width: auto;
+}
+
+.front-btn img{
+  height:30px;
+  width: auto;
+  
 
 }
 
-.front-btn{
-  height: 50px;
-  width: 20px;
-
-}
-
-.accessory-image{
+.accessory-image img {
+  height: 300px;
+  width: auto;
   background-color: white;
-  height:1%;
 }

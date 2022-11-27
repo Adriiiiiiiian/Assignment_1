@@ -175,7 +175,6 @@ nav a:hover::before{
 .accessory-image img {
   height:auto;
   width: 300px;
-  
   background-color: white;
   object-fit: cover;
 
@@ -263,7 +262,7 @@ nav a:hover::before{
   
 }
 
-.buy-pop-up:hover{
+.buy-pop-up:hover {
   opacity: 1;
 }
 

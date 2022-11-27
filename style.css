@@ -183,7 +183,7 @@ nav a:hover::before{
 
 .accessory-info{
   color: white;
-  
+  overflow:hidden;
 }
 
 .merch-content{

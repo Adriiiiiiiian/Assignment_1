@@ -1,5 +1,7 @@
-html{background-color: rgb(30, 30, 30);}
-
+*::selection{
+  color:black;
+  background-color: white;
+}
 /*NAVIGATION BAR*/
 header ::after {
   content:'';
@@ -162,41 +164,47 @@ nav a:hover::before{
   height:90px;
   width: 30;
   opacity:0.2;
+  outline: solid;
+  outline-color: white;
 }
+
 
 .front-btn img{
   height:90px;
   width: 30px;
   opacity:0.2;
+  outline: solid;
+  outline-color: white;
   
 
 }
+
 
 .accessory-image img {
   height:auto;
   width: 300px;
-  background-color: white;
+  background-color: black;
   object-fit: cover;
+  
+  
 
   
 }
 
-.accessory-info{
-  color: white;
-  overflow:hidden;
-}
 
 .merch-content{
-  position: absolute;
+  position: relative;
   overflow: hidden;
-  padding: 20px;
+  padding: 0;
   background-color:black;
+  display:flex;
 
-  margin-top: 0px;
+  margin-top: px;
 }
 
 .accessories-word{
-  color: white;
+  display: flex;
+  color: black;
   font-size: 30px;
   text-decoration: underline;
   padding:10,30,10,30;
@@ -204,14 +212,16 @@ nav a:hover::before{
 }
 
 .accessories-container{
-  padding:0;
+  padding-top:20px;
+  
   scroll-behavior: smooth;
   overflow-x: auto;
   display:flex;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 30px;
+  height:auto;
+  margin: 0 auto;
+  
+  
 
 }
 
@@ -224,10 +234,15 @@ nav a:hover::before{
 .accessories-card{
   flex: 0 0 auto;
   height: 200x;
-  margin-left:60px;
+  width: auto;
+  margin-left:95px;
+  
   position: relative;
-  margin-right: 10px;
-  padding:0,0,0,0;
+  margin-right: 0px;
+  
+  display: flex;
+  outline-style: solid;
+  outline-color:white ;
 
 }
 
@@ -236,11 +251,12 @@ nav a:hover::before{
   height:300px;
   width:auto;
   
+  
   overflow: hidden;
 }
 
 .buy-pop-up{
-  color:white;
+  color:black;
   text-align: center;
   position:absolute;
   display:flex;
@@ -253,9 +269,9 @@ nav a:hover::before{
   text-transform: capitalize;
   border:none;
   outline:none;
-  background:rgb(30, 30, 30);
+  background:white;
   border-radius: 5px;
-  left: -40%;
+  left: -42%;
   top: 85%;
   transition: 0.2s;
   cursor: pointer;
@@ -274,7 +290,10 @@ nav a:hover::before{
   text-transform: capitalize;
   text-align: center;
   position:absolute;
-  transform: translate(5%,-20%);
+  transform: translate(7%,210%);
+  overflow: hidden;
+  margin:0,0,0,0;
+  padding: 0,0,0,0;
   
 }
 .product-name{
@@ -295,6 +314,7 @@ nav a:hover::before{
   margin-top:100px;
   transform: scaleX(-1);
   z-index: 9;
+  filter: invert(100%);
 }
 
 .back-btn{
@@ -306,13 +326,7 @@ nav a:hover::before{
   cursor: pointer;
   margin-top:100px;
   z-index: 9;
+  filter: invert(100%)
+  
 }
-
-
-
-.accessories-container :nth-child(3){
-  grid-column: span 2;
-  margin-bottom:10px;
-}
-
 

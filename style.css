@@ -155,6 +155,10 @@ nav a:hover::before{
 }
 }
 
+.accessories-card:last-child{
+  margin-right: 95px;
+}
+
 
 .accessories-merch{
   color: white;
@@ -182,9 +186,9 @@ nav a:hover::before{
 
 .accessory-image img {
   height:auto;
-  width: 300px;
+  width: 200px;
   background-color: black;
-  object-fit: cover;
+  object-fit: auto;
   
   
 
@@ -198,8 +202,8 @@ nav a:hover::before{
   padding: 0;
   background-color:black;
   display:flex;
-
-  margin-top: px;
+  width:auto;
+  
 }
 
 .accessories-word{
@@ -212,15 +216,15 @@ nav a:hover::before{
 }
 
 .accessories-container{
-  padding-top:20px;
-  
+  padding-top:15px;
+  padding-bottom: 85px;
   scroll-behavior: smooth;
   overflow-x: auto;
+  overflow-y: hidden;
   display:flex;
-  width: 100%;
-  height:auto;
+  width: auto;
+  height:100%;
   margin: 0 auto;
-  
   
 
 }
@@ -233,12 +237,13 @@ nav a:hover::before{
 
 .accessories-card{
   flex: 0 0 auto;
-  height: 200x;
-  width: auto;
+  height: 100x;
+  padding-bottom:0px;
+  
   margin-left:95px;
   
   position: relative;
-  margin-right: 0px;
+ 
   
   display: flex;
   outline-style: solid;
@@ -246,10 +251,12 @@ nav a:hover::before{
 
 }
 
+
 .accessory-image{
   position:relative;
-  height:300px;
+  height:auto;
   width:auto;
+  
   
   
   overflow: hidden;
@@ -261,8 +268,8 @@ nav a:hover::before{
   position:absolute;
   display:flex;
   text-align: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   transform: translateX(110%);
@@ -271,8 +278,8 @@ nav a:hover::before{
   outline:none;
   background:white;
   border-radius: 5px;
-  left: -42%;
-  top: 85%;
+  left: -55%;
+  top: 70%;
   transition: 0.2s;
   cursor: pointer;
   opacity: 0;
@@ -280,27 +287,47 @@ nav a:hover::before{
   
 }
 
-.buy-pop-up:hover {
-  opacity: 1;
+
+  
+.accessory-image:hover .buy-pop-up{
+  opacity:1;
+  
+}
+
+
+.buy-pop-up:hover{
+  color:white;
+  background-color: #0BDA51	;
+  padding-top: 12px;
+  transition: 0.2s;
+  
+  
+  
 }
 
 .product-info{
 
   color:white;
   text-transform: capitalize;
-  text-align: center;
+  text-align: justify;
   position:absolute;
-  transform: translate(7%,210%);
+  transform: translate(-1%,230%);
   overflow: hidden;
   margin:0,0,0,0;
-  padding: 0,0,0,0;
+  
+  padding-top:0px;
+  padding-bottom:0px;
+  
   
 }
 .product-name{
-  font-size: 28px;
+  font-size: 20px;
+  margin-bottom:0px;
 }
 .product-cost{
-  font-size: 22px;
+  font-size: 20px;
+  margin-top:0px;
+
 }
 
 

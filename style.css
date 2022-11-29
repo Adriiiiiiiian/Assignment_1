@@ -199,7 +199,7 @@ nav a:hover::before{
 
 .merch-content{
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   padding: 0;
   background-color:black;
   display:flex;
@@ -220,12 +220,13 @@ nav a:hover::before{
   padding-top:15px;
   padding-bottom: 85px;
   scroll-behavior: smooth;
-  overflow-x: auto;
+  overflow-x: scroll;
   overflow-y: hidden;
   display:flex;
   width: auto;
   height:100%;
   margin: 0 auto;
+  white-space: nowrap;
   
 
 }
@@ -260,7 +261,7 @@ nav a:hover::before{
   
   
   
-  overflow: hidden;
+  overflow: auto;
 }
 
 .buy-pop-up{
@@ -313,7 +314,7 @@ nav a:hover::before{
   text-align: justify;
   position:absolute;
   transform: translate(-1%,230%);
-  overflow: hidden;
+  overflow: auto;
   margin:0,0,0,0;
   
   padding-top:0px;

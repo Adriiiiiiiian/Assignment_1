@@ -2,6 +2,7 @@
   color:black;
   background-color: white;
 }
+
 /*NAVIGATION BAR*/
 header ::after {
   content:'';

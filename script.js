@@ -1,11 +1,9 @@
-const content = document.getElementsByClassName("accessories-container");
-const frontbtn = document.getElementsByClassName("front-btn");
-const backbtn = document.getElementsByClassName("back-btn");
-
-backbtn.addEventListener("click", () => {
-    content.scrollLeft -=20;
+/*document.querySelector(".merch-content .accessories-container .buy-pop-up")
+    .addEventListener("click", function(){
+    document.querySelector(".popup").classList.add("active");
 });
 
-frontbtn.addEventListener("click", () => {
-    content.scrollRight +=9;
-});
+document.querySelector(".popup .close-popup").addEventListener("click", function(){
+    document.querySelector(".popup").classList.remove("active");
+}); */
+

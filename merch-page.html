@@ -1,6 +1,8 @@
+<!DOCTYPE html>
+
 <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="script.js"></script>
+   
     
 </head>
 <body>
@@ -20,7 +22,7 @@
                         <a href = "tour-page.html"> Tour </a>
                     </li>
                     <li>
-                        <a href = "socials-page.html"> Videos </a>
+                        <a href = "videos-page.html"> Videos </a>
                     </li>
                     
                 </ul>
@@ -32,11 +34,11 @@
     </header>
     <h1 class="accessories-word">Accessories</h1>
     <section class="merch-content">
-        <button class="back-btn">
+        <button class="back-btn" id="back">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>                        
         
-        <button class="front-btn">
+        <button class="front-btn" id="front">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>
 
@@ -46,12 +48,13 @@
                 <div class="accessory-image">
                     <img src= "https://cdn.shopify.com/s/files/1/0246/4779/4762/products/XCX_pufflongsleeve_grande.png?v=1667428644">
                     <button class="buy-pop-up">Buy</button>
-                </div>
                 
+                </div>
                 <div class="product-info">
                     <p class="product-name">puff logo long sleeve</p>
                     <p class="product-cost">$25</p>
                 </div>
+                
             </div>
             <div class="accessories-card">
                 <div class="accessory-image">
@@ -107,15 +110,16 @@
 
     <h1 class="accessories-word">Music</h1>
     <section class="merch-content">
-        <button class="back-btn">
+        <button class="back-btn" id="back">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>                        
         
-        <button class="front-btn">
+        <button class="front-btn" id="front">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>
 
         <div class="accessories-container">
+            
             <div class="accessories-card">
                 <div class="accessory-image">
                     <img src= "https://cdn.shopify.com/s/files/1/0246/4779/4762/products/cd_new_7ba60a59-6c7c-46bb-a366-56d99ca3e2b5_grande.png?v=1636028837">
@@ -172,19 +176,40 @@
                     <p class="product-cost">$50</p>
                 </div>
             </div>
-            
-            
-            
-            
+                    
         </div>
     </section>
+
+
+
+    <div class="popup">
+        <div class="close-popup">&times;</div>
+        <div class="user-info">
+            <h2>Buy</h2>
+            <div class="user-input">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Email">
+            </div>
+            <div class="user-input">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="Enter Password">
+            </div>
+            <div class="confirm-button">
+                <button>Confirm</button>
+            </div>
+        </div>
+
+        
+
+    </div>
+    
         
         
 
         
 
     
-    
+<script src="/script.js"></script>
 </body>
 
 <footer></footer>

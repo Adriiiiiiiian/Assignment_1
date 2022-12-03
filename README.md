@@ -16,3 +16,6 @@ Videos I followed to make pop-up
 - https://www.youtube.com/watch?v=Z4XXA89mTy8
 - https://www.youtube.com/watch?v=5BeM3-_8788
 
+
+
+I mostly just followed youtube videos to make the entire webpage work

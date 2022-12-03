@@ -2,6 +2,8 @@
 
 <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
+    
    
     
 </head>
@@ -34,11 +36,11 @@
     </header>
     <h1 class="accessories-word">Accessories</h1>
     <section class="merch-content">
-        <button class="back-btn" id="back">
+        <button class="back-btn" id="back" type="button" onclick = "left()">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>                        
         
-        <button class="front-btn" id="front">
+        <button class="front-btn" id="front" type="button" onclick="right()">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>
 
@@ -110,15 +112,16 @@
 
     <h1 class="accessories-word">Music</h1>
     <section class="merch-content">
-        <button class="back-btn" id="back">
+        <button class="back-btn" id="back" type="button" onclick = "left()">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>                        
         
-        <button class="front-btn" id="front">
+        <button class="front-btn" id="front" type="button" onclick="right()">
             <img src="https://lh3.googleusercontent.com/pw/AL9nZEW2HnaWf-ll0gWhjQHsmplEY0o2aRMfrZkyXgMsVKJqf0xjtxT-wcmBby_DwlgBpOI8D5s1GDRfRL7b3r4kFo7BXt1W8rC6-DTg5EkGlPvPlOL1xA=w2400">
         </button>
 
         <div class="accessories-container">
+            
             
             <div class="accessories-card">
                 <div class="accessory-image">
@@ -176,12 +179,13 @@
                     <p class="product-cost">$50</p>
                 </div>
             </div>
-                    
+              
         </div>
     </section>
 
 
-
+    
+    
     <div class="popup">
         <div class="close-popup">&times;</div>
         <div class="user-info">
@@ -200,7 +204,7 @@
         </div>
 
         
-
+        
     </div>
     
         
@@ -208,8 +212,15 @@
 
         
 
+    <script defer src="script.js"></script>  
     
-<script src="script.js"></script>
 </body>
 
-<footer></footer>
+<footer>
+    <div class="socials">
+        <a href="https://www.instagram.com/charli_xcx/?hl=en" target="_blank"><img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png"></a>
+        <a href="https://twitter.com/charli_xcx?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="https://www.freeiconspng.com/uploads/cricle-twitter-emblem-png-clipart-8.png"></a>
+        <a href="https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5" target="_blank"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-green-logo-8.png"></a>
+
+    </div>
+</footer>

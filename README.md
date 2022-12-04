@@ -4,7 +4,7 @@ Took homepage text from a portion of the description of any of her youtube video
 Took most of the images and website idea from official website
 - https://charlixcx.com/
 
-Videos I followed for About page
+Video I followed for About page
 
 - https://www.youtube.com/watch?v=KE-LlEWaaGE
 

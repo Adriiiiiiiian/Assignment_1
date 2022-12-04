@@ -60,11 +60,11 @@
             let containerWidth = containerDimensions.width;
 
             backmerch[i].addEventListener('click', () => {
-                item.scrollLeft += containerWidth;
+                item.scrollLeft += containerWidth+100;
             })
 
             frontmerch[i].addEventListener('click', () => {
-                item.scrollLeft -= containerWidth;
+                item.scrollLeft -= containerWidth+100;
             })
         })
 

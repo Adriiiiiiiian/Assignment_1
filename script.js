@@ -35,8 +35,3 @@ productcontainers.forEach((item, i) => {
 
 
 
-/*var p = document.getElementsByClassName("front-btn-videos");
-
-p.onclick = showAlert;
-
-p.addEventListener("click", myScript);*/
